@@ -1,0 +1,91 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #090909 0%, #351C2B 100%);
+}
+
+.conteudo {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+  flex: 1;
+  padding: 55px 0 70px;
+}
+
+.pagina {
+  text-align: center;
+}
+
+.pagina h1 {
+  color: #F4B6CF;
+  font-size: 36px;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.pagina > p {
+  color: #C88AA8;
+  line-height: 1.7;
+}
+
+.tag {
+  color: #D98AAA !important;
+  font-size: 12px !important;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.destaque {
+  max-width: 750px;
+  margin: 40px auto 0;
+  padding: 35px;
+  border: 1px solid #C88AA8;
+  border-radius: 18px;
+  background: rgba(53, 28, 43, 0.75);
+}
+
+.destaque h2 {
+  color: #F4B6CF;
+  margin-bottom: 14px;
+}
+
+.destaque p {
+  color: #C88AA8;
+  line-height: 1.7;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 11px 21px;
+  border-radius: 22px;
+  background: #F4B6CF;
+  color: #090909;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.botao:hover {
+  background: #D98AAA;
+  transform: translateY(-2px);
+}
+
+.rodape {
+  padding: 22px;
+  text-align: center;
+  border-top: 1px solid rgba(217, 138, 170, 0.3);
+  background: rgba(9, 9, 9, 0.92);
+}
+
+.rodape strong {
+  color: #F4B6CF;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.rodape span {
+  color: #C88AA8;
+  font-size: 13px;
+}
