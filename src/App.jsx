@@ -18,9 +18,11 @@ function App() {
           <Route path="/contato" element={<Contato />} />
         </Routes>
       </main>
+
       <footer className="rodape">
         <strong>🎬 Catálogo de Filmes</strong>
-        <span>Projeto Praticando • React Router</span>
+        <span>Projeto Praticando • React Router • Axios • Material UI • React Icons</span>
+        <small>Dados e imagens de filmes fornecidos por The Movie Database (TMDB).</small>
       </footer>
     </div>
   );

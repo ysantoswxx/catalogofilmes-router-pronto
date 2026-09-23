@@ -89,3 +89,34 @@
   color: #C88AA8;
   font-size: 13px;
 }
+
+
+.tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 25px 0;
+}
+
+.tecnologias span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 13px;
+  border-radius: 20px;
+  background: #090909;
+  color: #F4B6CF;
+  border: 1px solid #C88AA8;
+}
+
+.tmdb-aviso {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.rodape small {
+  display: block;
+  margin-top: 8px;
+  color: #C88AA8;
+}
